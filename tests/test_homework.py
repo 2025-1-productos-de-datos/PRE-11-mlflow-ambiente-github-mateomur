@@ -13,8 +13,7 @@ def test_01():
     try:
         subprocess.run(
             [
-                "source",
-                "run.sh",
+                "https://github.com/jdvelasq/mlflow-wine-quality.git",
             ],
             check=True,
         )
